@@ -1,4 +1,3 @@
-TOKEN CHECKER 
 from flask import Flask, request, render_template_string
 import requests
 
@@ -134,7 +133,6 @@ def index():
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
 
-EXTRACTOR COOKIES BY TOKEN
 from flask import Flask, request, render_template_string, jsonify
 import requests
 app = Flask(__name__)
@@ -491,8 +489,6 @@ def api():
     return jsonify(result)
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=25670)
-
-GROUP UID 
 from flask import Flask, request, render_template_string
 import requests
 
@@ -619,8 +615,7 @@ if __name__ == '__main__':
     print("ðŸ”¥ Flask server started on port 5000...")
     app.run(host="0.0.0.0", port=5000, debug=True)
 
-    SERVER 
-    from flask import Flask, request
+from flask import Flask, request
 import requests
 from threading import Thread, Event
 import time
